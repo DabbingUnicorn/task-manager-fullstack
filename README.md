@@ -108,3 +108,4 @@ task-manager-fullstack/
 - Add due dates ⏰
 - Filter by completed/pending ✅
 - Use `.env` in frontend with `VITE_API_URL`
+- Add Auth0 for identity access management
