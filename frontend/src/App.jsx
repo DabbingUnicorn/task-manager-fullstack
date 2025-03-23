@@ -6,7 +6,7 @@ function App() {
   const [title, setTitle] = useState('');
   const [loading, setLoading] = useState(true);
 
-  const API = 'http://localhost:3001'; // or your deployed backend
+  const API = 'https://task-manager-api-oi9w.onrender.com'; // or your deployed backend
 
   useEffect(() => {
     fetch(`${API}/tasks`)
